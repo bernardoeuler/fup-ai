@@ -4,6 +4,9 @@ It's a webapp that allows the students of the UFC (Federal Universtiy of Ceará)
 ## How was it built?
 The FUP AI was built using Python and Gemini. It has also the support of some packages, the main ones are Langchain and Streamlit.
 
+## How to access it?
+The app is hosted by Streamlit, the link to the app is <https://fup-ai.streamlit.app/>.
+
 ## How to run it on your computer?
 **1. Clone the repository**
 ```
@@ -16,8 +19,10 @@ cd fup-ai
 pip install -r requirements.txt
 ```
 
-## How to access it?
-The app is hosted by Streamlit, the link to the app is <https://fup-ai.streamlit.app/>.
+**3. Run Streamlit local server**
+```
+streamlit run app.py
+```
 
 ## If you have any suggestions, contact me
 - <bernardoeulersantos@gmail.com>
